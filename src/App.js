@@ -1,4 +1,5 @@
 import React from 'react'
+import Card from './components/Card'
 import fair from './assests/fair.png'
 import home from './assests/home.png'
 import home2 from './assests/home2.png'
@@ -73,8 +74,17 @@ function App() {
               
           </div>
        </section>
-       <section className='bg-gray-800 w-400 min-h-screen'>
+       <section className='bg-gray-800 w-400 h-96'>
+        <Card />
 
+       </section>
+       <section className='bg-white w-400 min-h-screen'>
+        <div className='flex'>
+        <div className='border border-black w-96 h-32 ml-5'></div>
+        <div className='border border-black w-96 h-32 ml-5'></div>
+        <div className='border border-black w-80 h-32 ml-5'></div>
+        </div>
+         
        </section>
        </body>
   )
